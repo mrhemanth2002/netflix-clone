@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="parent">
+    <div class="child">
+        <nav class="logo">
+            <div>
+                <img src="logo.png" width="220px" height="110px">
+            </div>
+         
+         <div class="hide">
+            <button id="click" class="person" onclick="document.getElementById('netflix').style='display:block'
+            " onclick="document.getElementById('section-2').style='display:none'"><span class="bi bi-person-fill"></span>Login</button>
+         </div>
+    
+        </nav>
+        <div class="form-section">
+            <div class="page" >
+                <form id="netflix" class="log" style="display: none;">
+                    <div class="sec">
+                        <div class="sec-1">
+                            <h1>Sign in</h1>
+                        </div>
+                        <div class="sec-2">
+                            <button class="exit" onclick="document.getElementById('netflix').style='display:none'">
+                                <span class="bi bi-x-lg"></span>
+                            </button>
+                        </div>
+                        
+                    </div>
+                   
+                    <input class="info" type="email" placeholder="Email or phone number">
+                    <input class="info" type="password" placeholder="password">
+                    <button class="login">Sign in</button>
+                    <div class="line">
+                        <input class="tick" type="checkbox"><label class="remember">Remember me</label>
+                        <a class="pass" href="#">Need help?</a>
+                    </div>
+                    <div class="para">
+                        <div class="help">
+                            <p class="now">New to Netflix?</p>
+                            <a class="register" href="#">Sign up now.</a>
+                        </div>
+                        <div class="content">
+                            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+                        </div>
+                        
+                    </div>
+                    
+                </form>
+        
+            </div>
+        </div>
+       
+
+        </div>
+       
+    </div>
+    
+  </div>
+</body>
+</html>
